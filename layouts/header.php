@@ -43,7 +43,7 @@
                               <div class="main_menu_inner collapse navbar-collapse justify-content-lg-center" id="main_menu_dropdown">
                                   <ul class="main_menu_list unordered_list justify-content-center">
                                       <li>
-                                          <a class="nav-link" href="#">
+                                          <a class="nav-link" href="about.php">
                                               Who We Are
                                           </a>
                                       </li>
