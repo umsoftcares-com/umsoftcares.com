@@ -9,7 +9,7 @@
                     <div class="iconbox_content">
                         <h3 class="iconbox_title">Write to us</h3>
                         <p class="mb-0">
-                            Techco@gmail.com
+                            <?= $company_mail; ?>
                         </p>
                     </div>
                 </div>
@@ -18,9 +18,9 @@
                         <img src="assets/images/icons/icon_calling.svg" alt="Calling Check SVG Icon">
                     </div>
                     <div class="iconbox_content">
-                        <h3 class="iconbox_title"> Call Us (USA)</h3>
+                        <h3 class="iconbox_title"> Call Us (IND)</h3>
                         <p class="mb-0">
-                            +(1) 1230 452 8597
+                            <?= $company_phone; ?>
                         </p>
                     </div>
                 </div>
@@ -31,7 +31,7 @@
                     <div class="iconbox_content">
                         <h3 class="iconbox_title">Our Office</h3>
                         <p class="mb-0">
-                            Waterloo, Park, Australia
+                            <?= $company_address; ?>
                         </p>
                     </div>
                 </div>
@@ -212,10 +212,10 @@
     <div class="footer_bottom">
         <div class="container d-md-flex align-items-md-center justify-content-md-between">
             <p class="copyright_text m-0">
-                Copyright © 2024 Techco, All rights reserved.
+                <?= $copyright_text; ?>
             </p>
             <p class="copyright_text m-0">
-                Developed by <a href="https://xpressbuddy.com/" target="_blank">XpressBuddy</a>
+                Developed by <a href="<?= $domain; ?>" target="_blank"><?= $company_name; ?></a>
             </p>
         </div>
     </div>

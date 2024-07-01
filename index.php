@@ -1,8 +1,10 @@
+<?php
+require_once 'global/global-variable.php';
+?>
 <!doctype html>
 <html lang="en">
 
 <head>
-
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
@@ -10,45 +12,31 @@
   <meta name="description" content="Techco – IT Solutions & Technology, Business Consulting, Software Company Site Template">
   <meta name="keywords" content="Bootstrap Site Template">
   <meta name="author" content="Webrock">
-
-  <title>umsoftcares – Techco – IT Solutions & Technology, Business Consulting, Software Company</title>
-  <link rel="shortcut icon" href="assets/images/site_logo/favourite_icon_2.svg">
-
+  <title><?= $page_title; ?> - <?= $company_name ?></title>
+  <link rel="shortcut icon" href="assets/images/site_logo/favicon-black.png">
   <!-- Fraimwork - CSS Include -->
   <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
-
   <!-- Icon - CSS Include -->
   <link rel="stylesheet" type="text/css" href="assets/css/fontawesome.css">
-
   <!-- Animation - CSS Include -->
   <link rel="stylesheet" type="text/css" href="assets/css/animate.min.css">
-
   <!-- Carousel - CSS Include -->
   <link rel="stylesheet" type="text/css" href="assets/css/swiper-bundle.min.css">
-
   <!-- Video & Image Popup - CSS Include -->
   <link rel="stylesheet" type="text/css" href="assets/css/magnific-popup.min.css">
-
   <!-- Counter - CSS Include -->
   <link rel="stylesheet" type="text/css" href="assets/css/odometer.min.css">
-
   <!-- Custom - CSS Include -->
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-
 </head>
 
-
 <body>
-
   <!-- Body Wrap - Start -->
   <div class="page_wrapper">
-
     <?php include 'layouts/header.php'; ?>
-
     <!-- Main Body - Start
       ================================================== -->
     <main class="page_content">
-
       <!-- IT Solution Hero Section - Start
         ================================================== -->
       <section class="it_solution_hero_section">
@@ -56,7 +44,7 @@
           <div class="row">
             <div class="col-lg-7">
               <div class="it_solution_hero_content" style="background-image: url('assets/images/shapes/it_solution_hero_bg_1.svg');">
-                <div class="heading_focus_text mb-0 d-inline-flex align-items-center">👋 Hi We <span class="badge bg-secondary text-white">Are Techco</span></div>
+                <div class="heading_focus_text mb-0 d-inline-flex align-items-center">👋 Hi We <span class="badge bg-secondary text-white">Are <?= $company_name ?></span></div>
                 <h1>
                   Grow your Business Organic & IT Solution Technology
                 </h1>
@@ -150,7 +138,6 @@
       </section>
       <!-- IT Solution Hero Section - End
         ================================================== -->
-
       <!-- Client Logo Section - Start
         ================================================== -->
       <section class="client_logo_section section_space" style="background-image: url('assets/images/shapes/bg_pattern_1.svg');">
@@ -272,7 +259,6 @@
               </div>
             </div>
           </div>
-
           <div class="row funfact_wrapper">
             <div class="col-lg-8">
               <div class="row">
@@ -351,7 +337,6 @@
       </section>
       <!-- Client Logo Section - End
         ================================================== -->
-
       <!-- About Section - Start
         ================================================== -->
       <section class="about_section section_space">
@@ -429,7 +414,6 @@
       </section>
       <!-- About Section - End
         ================================================== -->
-
       <!-- Policy Section - Start
         ================================================== -->
       <section class="policy_section">
@@ -479,7 +463,6 @@
       </section>
       <!-- Policy Section - End
         ================================================== -->
-
       <!-- Service Section - Start
         ================================================== -->
       <section class="service_section section_space xb-hidden pb-0">
@@ -493,7 +476,6 @@
               Featured Services
             </h2>
           </div>
-
           <div class="row">
             <div class="col-lg-6">
               <div class="service_block">
@@ -611,7 +593,6 @@
               </div>
             </div>
           </div>
-
           <div class="btns_group pb-0">
             <a class="btn btn-outline-light" href="service.html">
               <span class="btn_label" data-text="More Services">More Services</span>
@@ -624,7 +605,6 @@
       </section>
       <!-- Service Section - End
         ================================================== -->
-
       <!-- Portfolio Section - Start
         ================================================== -->
       <section class="portfolio_section xb-hidden section_space pb-0">
@@ -822,7 +802,6 @@
       </section>
       <!-- Portfolio Section - End
         ================================================== -->
-
       <!-- Review Section - Start
         ================================================== -->
       <section class="review_section section_space bg-light" style="background-image: url('assets/images/shapes/bg_pattern_2.svg');">
@@ -836,7 +815,6 @@
               What clients say
             </h2>
           </div>
-
           <div class="row">
             <div class="col-lg-6">
               <div class="review_block pb-0">
@@ -907,7 +885,6 @@
       </section>
       <!-- Review Section - End
         ================================================== -->
-
       <!-- Team Section - Start
         ================================================== -->
       <section class="team_section xb-hidden section_space">
@@ -921,7 +898,6 @@
               Top Skilled Experts
             </h2>
           </div>
-
           <div class="team_carousel">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
@@ -1306,7 +1282,6 @@
               </div>
             </div>
           </div>
-
           <div class="container">
             <div class="btns_group pb-0">
               <a class="btn btn-outline-light" href="service.html">
@@ -1321,7 +1296,6 @@
       </section>
       <!-- Team Section - End
         ================================================== -->
-
       <!-- Blog Section - Start
         ================================================== -->
       <section class="blog_section section_space bg-light" style="background-image: url('assets/images/shapes/bg_pattern_1.svg');">
@@ -1335,7 +1309,6 @@
               Latest Articles Posts
             </h2>
           </div>
-
           <div class="row">
             <div class="col-lg-4">
               <div class="blog_post_block">
@@ -1454,7 +1427,6 @@
       </section>
       <!-- Blog Section - End
         ================================================== -->
-
       <!-- Call To Action Section - Start
         ================================================== -->
       <section class="calltoaction_section parallaxie" style="background-image: url('assets/images/backgrounds/bg_image_1.webp');">
@@ -1477,49 +1449,38 @@
       </section>
       <!-- Call To Action Section - End
         ================================================== -->
-
     </main>
     <!-- Main Body - End
       ================================================== -->
-
     <!-- Site Footer - Start
       ================================================== -->
     <?php include 'layouts/footer.php'; ?>
     <!-- Site Footer - End
       ================================================== -->
-
   </div>
   <!-- Body Wrap - End -->
-
   <!-- Fraimwork - Jquery Include -->
   <script src="assets/js/jquery.min.js"></script>
   <script src="assets/js/popper.min.js"></script>
   <script src="assets/js/bootstrap.min.js"></script>
   <script src="assets/js/bootstrap-dropdown-ml-hack.min.js"></script>
-
   <!-- Carousel - Jquery Include -->
   <script src="assets/js/swiper-bundle.min.js"></script>
-
   <!-- Parallax Effects - jquery include -->
   <script src="assets/js/parallaxie.js"></script>
   <script src="assets/js/parallax-scroll.js"></script>
   <script src="assets/js/wow.min.js"></script>
-
   <!-- Countdown - Jquery Include -->
   <script src="assets/js/countdown.js"></script>
-
   <!-- Video & Image Popup - Jquery Include -->
   <script src="assets/js/magnific-popup.min.js"></script>
-
   <!-- Counter - Jquery Include -->
   <script src="assets/js/appear.min.js"></script>
   <script src="assets/js/odometer.min.js"></script>
-
   <!-- Circular Progress Bar - Jquery Include -->
   <script src="assets/js/circularProgressBar.min.js"></script>
-
   <!-- Custom - Jquery Include -->
   <script src="assets/js/main.js"></script>
-
 </body>
+
 </html>
