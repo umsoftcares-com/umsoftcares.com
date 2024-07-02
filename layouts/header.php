@@ -5,7 +5,7 @@
                   <div class="loader-line"></div>
               </div>
               <div class="loader-logo">
-                  <img src="assets/images/site_logo/site_logo_2.svg" alt="Site Logo – Techco – IT Solutions &amp; Technology Site Template">
+                  <img src="assets/images/site_logo/logo-white.png" alt="Site Logo – Techco – IT Solutions &amp; Technology Site Template">
               </div>
           </div>
       </div>
@@ -33,9 +33,9 @@
                       <div class="col-xl-3 col-lg-2 col-5">
                           <div class="site_logo">
                               <a class="site_link" href="index.php">
-                                  <img src="assets/images/site_logo/site_logo_3.svg" alt="Site Logo – Techco – IT Solutions & Technology, Business Consulting, Software Company Site Template">
+                                  <img style="width: 175px; max-width: none; margin-left: 25px;" src="assets/images/site_logo/logo.png" alt="Site Logo – <?= $company_name; ?> – IT Solutions & Technology, Business Consulting, Software Company">
                               </a>
-                              <div class="badge bg-danger-subtle text-danger">We’re Hiring</div>
+                              <!-- <div class="badge bg-danger-subtle text-danger">We’re Hiring</div> -->
                           </div>
                       </div>
                       <div class="col-xl-6 col-lg-7 col-2">

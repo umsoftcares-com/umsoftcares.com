@@ -13,7 +13,7 @@ require_once 'global/global-variable.php';
   <meta name="keywords" content="Bootstrap Site Template">
   <meta name="author" content="Webrock">
   <title><?= $page_title; ?> - <?= $company_name ?></title>
-  <link rel="shortcut icon" href="assets/images/site_logo/favicon-black.png">
+  <link rel="shortcut icon" href="assets/images/site_logo/favicon.png">
   <!-- Fraimwork - CSS Include -->
   <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
   <!-- Icon - CSS Include -->
