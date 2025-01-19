@@ -8,8 +8,8 @@ require_once 'global/global-variable.php';
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <meta name="thumbnail" content="assets/images/Techco_page_thumbnail.webp">
-  <meta name="description" content="Techco – IT Solutions & Technology, Business Consulting, Software Company Site Template">
+  <meta name="thumbnail" content="assets/images/Umsoftcares_page_thumbnail.webp">
+  <meta name="description" content="Umsoftcares – IT Solutions & Technology, Business Consulting, Software Company Site Template">
   <meta name="keywords" content="Bootstrap Site Template">
   <meta name="author" content="Webrock">
   <title><?= $page_title; ?> - <?= $company_name ?></title>
@@ -53,7 +53,7 @@ require_once 'global/global-variable.php';
                 </p>
                 <ul class="btns_group unordered_list p-0 justify-content-start">
                   <li>
-                    <a class="btn" href="pricing.html">
+                    <a class="btn" href="<?= $cta_link; ?>">
                       <span class="btn_label" data-text="Get Started">Get Started</span>
                       <span class="btn_icon">
                         <i class="fa-solid fa-arrow-up-right"></i>
@@ -63,7 +63,7 @@ require_once 'global/global-variable.php';
                   <li>
                     <div class="review_short_info">
                       <div class="d-flex">
-                        <img src="assets/images/icons/icon_stars_trustpilot.svg" alt="Techco - Trustpilot Review">
+                        <img src="assets/images/icons/icon_stars_trustpilot.svg" alt="Umsoftcares - Trustpilot Review">
                         <span>4.8</span>
                       </div>
                       <div class="review_counter">From <b>200+</b> reviews</div>
@@ -75,7 +75,7 @@ require_once 'global/global-variable.php';
             <div class="col-lg-5">
               <ul class="it_solution_hero_images unordered_list">
                 <li>
-                  <img src="assets/images/hero/it_solution_hero_image_1.webp" alt="Techco - IT Solution - Hero Image 1">
+                  <img src="assets/images/hero/it_solution_hero_image_1.webp" alt="Umsoftcares - IT Solution - Hero Image 1">
                 </li>
                 <li>
                   <div class="worldwide_clients">
@@ -85,13 +85,13 @@ require_once 'global/global-variable.php';
                     </p>
                     <ul class="avatar_group unordered_list">
                       <li>
-                        <img src="assets/images/avatar/avatar_1.webp" alt="Techco - Avatar Image">
+                        <img src="assets/images/avatar/avatar_1.webp" alt="Umsoftcares - Avatar Image">
                       </li>
                       <li>
-                        <img src="assets/images/avatar/avatar_2.webp" alt="Techco - Avatar Image">
+                        <img src="assets/images/avatar/avatar_2.webp" alt="Umsoftcares - Avatar Image">
                       </li>
                       <li>
-                        <img src="assets/images/avatar/avatar_3.webp" alt="Techco - Avatar Image">
+                        <img src="assets/images/avatar/avatar_3.webp" alt="Umsoftcares - Avatar Image">
                       </li>
                       <li>
                         5k+
@@ -102,19 +102,19 @@ require_once 'global/global-variable.php';
                 <li>
                   <ul class="categories unordered_list_block">
                     <li>
-                      <a href="#!">
-                        <span>Data Security</span>
+                      <a href="<?= $cta_link; ?>">
+                        <span>Digital Marketing</span>
                         <i class="fa-solid fa-plus"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="#!">
+                      <a href="<?= $cta_link; ?>">
                         <i class="fa-solid fa-plus"></i>
-                        <span>Web Development</span>
+                        <span>Graphics</span>
                       </a>
                     </li>
                     <li>
-                      <a href="#!">
+                      <a href="<?= $cta_link; ?>">
                         <span>Analytics & Optimization</span>
                         <i class="fa-solid fa-plus"></i>
                       </a>
@@ -140,7 +140,7 @@ require_once 'global/global-variable.php';
         ================================================== -->
       <!-- Client Logo Section - Start
         ================================================== -->
-      <section class="client_logo_section section_space" style="background-image: url('assets/images/shapes/bg_pattern_1.svg');">
+      <!-- <section class="client_logo_section section_space" style="background-image: url('assets/images/shapes/bg_pattern_1.svg');">
         <div class="container">
           <div class="section_space pt-0">
             <div class="heading_block text-center">
@@ -153,107 +153,107 @@ require_once 'global/global-variable.php';
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
                   <div class="client_logo_item">
-                    <img src="assets/images/clients/client_logo_1.webp" alt="Techco - Client Logo Image">
+                    <img src="assets/images/clients/client_logo_1.webp" alt="Umsoftcares - Client Logo Image">
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="client_logo_item">
-                    <img src="assets/images/clients/client_logo_2.webp" alt="Techco - Client Logo Image">
+                    <img src="assets/images/clients/client_logo_2.webp" alt="Umsoftcares - Client Logo Image">
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="client_logo_item">
-                    <img src="assets/images/clients/client_logo_3.webp" alt="Techco - Client Logo Image">
+                    <img src="assets/images/clients/client_logo_3.webp" alt="Umsoftcares - Client Logo Image">
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="client_logo_item">
-                    <img src="assets/images/clients/client_logo_4.webp" alt="Techco - Client Logo Image">
+                    <img src="assets/images/clients/client_logo_4.webp" alt="Umsoftcares - Client Logo Image">
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="client_logo_item">
-                    <img src="assets/images/clients/client_logo_5.webp" alt="Techco - Client Logo Image">
+                    <img src="assets/images/clients/client_logo_5.webp" alt="Umsoftcares - Client Logo Image">
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="client_logo_item">
-                    <img src="assets/images/clients/client_logo_6.webp" alt="Techco - Client Logo Image">
+                    <img src="assets/images/clients/client_logo_6.webp" alt="Umsoftcares - Client Logo Image">
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="client_logo_item">
-                    <img src="assets/images/clients/client_logo_7.webp" alt="Techco - Client Logo Image">
+                    <img src="assets/images/clients/client_logo_7.webp" alt="Umsoftcares - Client Logo Image">
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="client_logo_item">
-                    <img src="assets/images/clients/client_logo_1.webp" alt="Techco - Client Logo Image">
+                    <img src="assets/images/clients/client_logo_1.webp" alt="Umsoftcares - Client Logo Image">
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="client_logo_item">
-                    <img src="assets/images/clients/client_logo_2.webp" alt="Techco - Client Logo Image">
+                    <img src="assets/images/clients/client_logo_2.webp" alt="Umsoftcares - Client Logo Image">
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="client_logo_item">
-                    <img src="assets/images/clients/client_logo_3.webp" alt="Techco - Client Logo Image">
+                    <img src="assets/images/clients/client_logo_3.webp" alt="Umsoftcares - Client Logo Image">
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="client_logo_item">
-                    <img src="assets/images/clients/client_logo_4.webp" alt="Techco - Client Logo Image">
+                    <img src="assets/images/clients/client_logo_4.webp" alt="Umsoftcares - Client Logo Image">
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="client_logo_item">
-                    <img src="assets/images/clients/client_logo_5.webp" alt="Techco - Client Logo Image">
+                    <img src="assets/images/clients/client_logo_5.webp" alt="Umsoftcares - Client Logo Image">
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="client_logo_item">
-                    <img src="assets/images/clients/client_logo_6.webp" alt="Techco - Client Logo Image">
+                    <img src="assets/images/clients/client_logo_6.webp" alt="Umsoftcares - Client Logo Image">
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="client_logo_item">
-                    <img src="assets/images/clients/client_logo_7.webp" alt="Techco - Client Logo Image">
+                    <img src="assets/images/clients/client_logo_7.webp" alt="Umsoftcares - Client Logo Image">
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="client_logo_item">
-                    <img src="assets/images/clients/client_logo_1.webp" alt="Techco - Client Logo Image">
+                    <img src="assets/images/clients/client_logo_1.webp" alt="Umsoftcares - Client Logo Image">
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="client_logo_item">
-                    <img src="assets/images/clients/client_logo_2.webp" alt="Techco - Client Logo Image">
+                    <img src="assets/images/clients/client_logo_2.webp" alt="Umsoftcares - Client Logo Image">
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="client_logo_item">
-                    <img src="assets/images/clients/client_logo_3.webp" alt="Techco - Client Logo Image">
+                    <img src="assets/images/clients/client_logo_3.webp" alt="Umsoftcares - Client Logo Image">
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="client_logo_item">
-                    <img src="assets/images/clients/client_logo_4.webp" alt="Techco - Client Logo Image">
+                    <img src="assets/images/clients/client_logo_4.webp" alt="Umsoftcares - Client Logo Image">
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="client_logo_item">
-                    <img src="assets/images/clients/client_logo_5.webp" alt="Techco - Client Logo Image">
+                    <img src="assets/images/clients/client_logo_5.webp" alt="Umsoftcares - Client Logo Image">
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="client_logo_item">
-                    <img src="assets/images/clients/client_logo_6.webp" alt="Techco - Client Logo Image">
+                    <img src="assets/images/clients/client_logo_6.webp" alt="Umsoftcares - Client Logo Image">
                   </div>
                 </div>
                 <div class="swiper-slide">
                   <div class="client_logo_item">
-                    <img src="assets/images/clients/client_logo_7.webp" alt="Techco - Client Logo Image">
+                    <img src="assets/images/clients/client_logo_7.webp" alt="Umsoftcares - Client Logo Image">
                   </div>
                 </div>
               </div>
@@ -265,7 +265,7 @@ require_once 'global/global-variable.php';
                 <div class="col-md-6">
                   <div class="funfact_block">
                     <div class="funfact_icon">
-                      <img src="assets/images/icons/icon_head.svg" alt="Techco - SVG Icon Head">
+                      <img src="assets/images/icons/icon_head.svg" alt="Umsoftcares - SVG Icon Head">
                     </div>
                     <div class="funfact_content">
                       <div class="counter_value">
@@ -279,7 +279,7 @@ require_once 'global/global-variable.php';
                 <div class="col-md-6">
                   <div class="funfact_block">
                     <div class="funfact_icon">
-                      <img src="assets/images/icons/icon_check.svg" alt="Techco - SVG Icon Check">
+                      <img src="assets/images/icons/icon_check.svg" alt="Umsoftcares - SVG Icon Check">
                     </div>
                     <div class="funfact_content">
                       <div class="counter_value">
@@ -293,7 +293,7 @@ require_once 'global/global-variable.php';
                 <div class="col-md-6">
                   <div class="funfact_block">
                     <div class="funfact_icon">
-                      <img src="assets/images/icons/icon_like.svg" alt="Techco - SVG Icon Like">
+                      <img src="assets/images/icons/icon_like.svg" alt="Umsoftcares - SVG Icon Like">
                     </div>
                     <div class="funfact_content">
                       <div class="counter_value">
@@ -307,7 +307,7 @@ require_once 'global/global-variable.php';
                 <div class="col-md-6">
                   <div class="funfact_block">
                     <div class="funfact_icon">
-                      <img src="assets/images/icons/icon_dart_board.svg" alt="Techco - SVG Icon Head">
+                      <img src="assets/images/icons/icon_dart_board.svg" alt="Umsoftcares - SVG Icon Head">
                     </div>
                     <div class="funfact_content">
                       <div class="counter_value">
@@ -323,7 +323,7 @@ require_once 'global/global-variable.php';
             <div class="col-lg-4">
               <div class="our_world_employees">
                 <div class="image_wrap">
-                  <img src="assets/images/about/about_image_1.webp" alt="Techco - Employees Guoup Image">
+                  <img src="assets/images/about/about_image_1.webp" alt="Umsoftcares - Employees Guoup Image">
                 </div>
                 <div class="content_wrap">
                   <h3 class="title_text mb-0">
@@ -334,7 +334,7 @@ require_once 'global/global-variable.php';
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
       <!-- Client Logo Section - End
         ================================================== -->
       <!-- About Section - Start
@@ -344,9 +344,9 @@ require_once 'global/global-variable.php';
           <div class="row align-items-center justify-content-lg-between">
             <div class="col-lg-6">
               <div class="about_image_1">
-                <img src="assets/images/about/about_image_9.webp" alt="Techco - About Image">
-                <img src="assets/images/about/about_image_11.webp" data-parallax='{"y" : 80, "smoothness": 6}' alt="Techco - About Image">
-                <img src="assets/images/about/about_image_10.webp" data-parallax='{"y" : -80, "smoothness": 6}' alt="Techco - About Image">
+                <img src="assets/images/about/about_image_9.webp" alt="Umsoftcares - About Image">
+                <img src="assets/images/about/about_image_11.webp" data-parallax='{"y" : 80, "smoothness": 6}' alt="Umsoftcares - About Image">
+                <img src="assets/images/about/about_image_10.webp" data-parallax='{"y" : -80, "smoothness": 6}' alt="Umsoftcares - About Image">
               </div>
             </div>
             <div class="col-lg-5">
@@ -354,13 +354,13 @@ require_once 'global/global-variable.php';
                 <div class="heading_block">
                   <div class="heading_focus_text">
                     We are 😃
-                    <span class="badge bg-secondary text-white">Techco</span>
+                    <span class="badge bg-secondary text-white">Umsoftcares</span>
                   </div>
                   <h2 class="heading_text">
                     Our Commitment to Client Satisfaction
                   </h2>
                   <p class="heading_description mb-0">
-                    At Techco, our commitment to client satisfaction is at the core of everything we do. We understand clients' success.
+                    At Umsoftcares, our commitment to client satisfaction is at the core of everything we do. We understand clients' success.
                   </p>
                 </div>
                 <ul class="icon_list unordered_list_block mb-5">
@@ -391,19 +391,11 @@ require_once 'global/global-variable.php';
                 </ul>
                 <ul class="btns_group unordered_list p-0 justify-content-start">
                   <li>
-                    <a class="btn" href="pricing.html">
+                    <a class="btn" href="<?= $cta_link; ?>">
                       <span class="btn_label" data-text="Get Started">Get Started</span>
                       <span class="btn_icon">
                         <i class="fa-solid fa-arrow-up-right"></i>
                       </span>
-                    </a>
-                  </li>
-                  <li>
-                    <a class="video_btn" href="https://www.youtube.com/watch?v=7e90gBu4pas">
-                      <span class="btn_icon">
-                        <i class="fa-solid fa-play"></i>
-                      </span>
-                      <span class="btn_label">How We Works</span>
                     </a>
                   </li>
                 </ul>
@@ -465,7 +457,7 @@ require_once 'global/global-variable.php';
         ================================================== -->
       <!-- Service Section - Start
         ================================================== -->
-      <section class="service_section section_space xb-hidden pb-0">
+      <section class="service_section section_space xb-hidden">
         <div class="container">
           <div class="heading_block text-center">
             <div class="heading_focus_text">
@@ -480,20 +472,20 @@ require_once 'global/global-variable.php';
             <div class="col-lg-6">
               <div class="service_block">
                 <div class="service_image">
-                  <img src="assets/images/services/service_image_1.webp" alt="IT Management Services">
+                  <img src="assets/images/services/service_image_1.webp" alt="Website Development">
                 </div>
                 <div class="service_content">
                   <h3 class="service_title">
-                    <a href="service_details.html">
-                      IT Management Services
+                    <a href="<?= $domain; ?>our-services.php">
+                      Website Development
                     </a>
                   </h3>
                   <div class="links_wrapper">
                     <ul class="category_btns_group unordered_list">
-                      <li><a href="#!">Strategy</a></li>
-                      <li><a href="#!">Consultation</a></li>
+                      <li><a href="#!">website</a></li>
+                      <li><a href="#!">web software</a></li>
                     </ul>
-                    <a class="icon_block" href="service_details.html">
+                    <a class="icon_block" href="<?= $domain; ?>our-services.php">
                       <i class="fa-regular fa-arrow-up-right"></i>
                     </a>
                   </div>
@@ -503,20 +495,21 @@ require_once 'global/global-variable.php';
             <div class="col-lg-6">
               <div class="service_block">
                 <div class="service_image">
-                  <img src="assets/images/services/service_image_2.webp" alt="IT Management Services">
+                  <img src="assets/images/services/service_image_2.webp" alt="Mobile App Development">
                 </div>
                 <div class="service_content">
                   <h3 class="service_title">
-                    <a href="service_details.html">
-                      Data Tracking and Security
+                    <a href="<?= $domain; ?>our-services.php">
+                      Mobile App Development
                     </a>
                   </h3>
                   <div class="links_wrapper">
                     <ul class="category_btns_group unordered_list">
-                      <li><a href="#!">Management</a></li>
-                      <li><a href="#!">Transfer</a></li>
+                      <li><a href="#!">Android</a></li>
+                      <li><a href="#!">IOS</a></li>
+                      <li><a href="#!">Cross Plateform</a></li>
                     </ul>
-                    <a class="icon_block" href="service_details.html">
+                    <a class="icon_block" href="<?= $domain; ?>our-services.php">
                       <i class="fa-regular fa-arrow-up-right"></i>
                     </a>
                   </div>
@@ -526,20 +519,20 @@ require_once 'global/global-variable.php';
             <div class="col-lg-4">
               <div class="service_block">
                 <div class="service_image">
-                  <img src="assets/images/services/service_image_3.webp" alt="IT Management Services">
+                  <img src="assets/images/services/service_image_3.webp" alt="Ecommerce Solutions">
                 </div>
                 <div class="service_content">
                   <h3 class="service_title">
-                    <a href="service_details.html">
-                      Website Development
+                    <a href="<?= $domain; ?>our-services.php">
+                      Ecommerce Solutions
                     </a>
                   </h3>
                   <div class="links_wrapper">
                     <ul class="category_btns_group unordered_list">
-                      <li><a href="#!">Landing Page</a></li>
-                      <li><a href="#!">Plugins</a></li>
+                      <li><a href="#!">Wordpress</a></li>
+                      <li><a href="#!">Custom Software</a></li>
                     </ul>
-                    <a class="icon_block" href="service_details.html">
+                    <a class="icon_block" href="<?= $domain; ?>our-services.php">
                       <i class="fa-regular fa-arrow-up-right"></i>
                     </a>
                   </div>
@@ -549,20 +542,20 @@ require_once 'global/global-variable.php';
             <div class="col-lg-4">
               <div class="service_block">
                 <div class="service_image">
-                  <img src="assets/images/services/service_image_4.webp" alt="IT Management Services">
+                  <img src="assets/images/services/service_image_4.webp" alt="Digital Marketing">
                 </div>
                 <div class="service_content">
                   <h3 class="service_title">
-                    <a href="service_details.html">
-                      Modern Technology Solution
+                    <a href="<?= $domain; ?>our-services.php">
+                      Digital Marketing
                     </a>
                   </h3>
                   <div class="links_wrapper">
                     <ul class="category_btns_group unordered_list">
                       <li><a href="#!">Consultation</a></li>
-                      <li><a href="#!">solution</a></li>
+                      <li><a href="#!">SEO</a></li>
                     </ul>
-                    <a class="icon_block" href="service_details.html">
+                    <a class="icon_block" href="<?= $domain; ?>our-services.php">
                       <i class="fa-regular fa-arrow-up-right"></i>
                     </a>
                   </div>
@@ -576,16 +569,16 @@ require_once 'global/global-variable.php';
                 </div>
                 <div class="service_content">
                   <h3 class="service_title">
-                    <a href="service_details.html">
-                      UI/UX Design Services
+                    <a href="<?= $domain; ?>our-services.php">
+                      Graphic Design Services
                     </a>
                   </h3>
                   <div class="links_wrapper">
                     <ul class="category_btns_group unordered_list">
-                      <li><a href="#!">Website</a></li>
-                      <li><a href="#!">Mobile App</a></li>
+                      <li><a href="#!">Social Media Post</a></li>
+                      <li><a href="#!">Brochure</a></li>
                     </ul>
-                    <a class="icon_block" href="service_details.html">
+                    <a class="icon_block" href="<?= $domain; ?>our-services.php">
                       <i class="fa-regular fa-arrow-up-right"></i>
                     </a>
                   </div>
@@ -594,7 +587,7 @@ require_once 'global/global-variable.php';
             </div>
           </div>
           <div class="btns_group pb-0">
-            <a class="btn btn-outline-light" href="service.html">
+            <a class="btn btn-outline-light" href="<?= $domain; ?>service.php">
               <span class="btn_label" data-text="More Services">More Services</span>
               <span class="btn_icon">
                 <i class="fa-solid fa-arrow-up-right"></i>
@@ -605,6 +598,74 @@ require_once 'global/global-variable.php';
       </section>
       <!-- Service Section - End
         ================================================== -->
+
+      <section class="calltoaction_section parallaxie" style="background-image: url(&quot;assets/images/backgrounds/bg_image_5.webp&quot;); background-size: cover; background-repeat: no-repeat; background-attachment: fixed; background-position: center 35.0521px;">
+        <div class="container">
+          <div class="row justify-content-lg-end">
+            <div class="col-lg-7">
+              <div class="instant_contact_form bg-primary shadow-none">
+                <div class="small_title text-white">
+                  <i class="fa-solid fa-envelope-open-text text-white"></i>
+                  Let's Connect!
+                </div>
+                <h3 class="form_title text-white">
+                  Send us a message, and we'll promptly discuss your project with you.
+                </h3>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label class="input_title" for="input_name">
+                        <i class="fa-regular fa-user"></i>
+                      </label>
+                      <input id="input_name" class="form-control" type="text" name="name" placeholder="Your Name" required="" fdprocessedid="t61f0n">
+                      <div data-lastpass-icon-root="" style="position: relative !important; height: 0px !important; width: 0px !important; float: left !important;"></div>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label class="input_title" for="input_email">
+                        <i class="fa-regular fa-envelope"></i>
+                      </label>
+                      <input id="input_email" class="form-control" type="email" name="email" placeholder="Your Enter" required="" fdprocessedid="ipntlx">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label class="input_title" for="input_phone">
+                        <i class="fa-regular fa-phone-volume"></i>
+                      </label>
+                      <input id="input_phone" class="form-control" type="tel" name="phone" placeholder="Your Phone No." required="" fdprocessedid="zw7va6i">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label class="input_title" for="input_company">
+                        <i class="fa-regular fa-globe"></i>
+                      </label>
+                      <input id="input_company" class="form-control" type="text" name="companyname" placeholder="Your Company Name" fdprocessedid="9ukot5">
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <div class="form-group">
+                      <label class="input_title" for="input_textarea">
+                        <i class="fa-regular fa-comments"></i>
+                      </label>
+                      <textarea id="input_textarea" class="form-control" name="message" placeholder="How can we help you?"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-warning" fdprocessedid="i72tih">
+                      <span class="btn_label" data-text="Send Request">Send Request</span>
+                      <span class="btn_icon">
+                        <i class="fa-solid fa-arrow-up-right"></i>
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <!-- Portfolio Section - Start
         ================================================== -->
       <section class="portfolio_section xb-hidden section_space pb-0">
@@ -624,7 +685,7 @@ require_once 'global/global-variable.php';
                 </p>
               </div>
               <div class="col-lg-5 d-none d-lg-flex justify-content-end">
-                <a class="btn btn-primary" href="pricing.html">
+                <a class="btn btn-primary" href="<?= $domain; ?>portfolio.php">
                   <span class="btn_label" data-text="All Works">All Works</span>
                   <span class="btn_icon">
                     <i class="fa-solid fa-arrow-up-right"></i>
@@ -639,20 +700,20 @@ require_once 'global/global-variable.php';
             <div class="swiper-slide">
               <div class="portfolio_block">
                 <div class="portfolio_image">
-                  <a class="portfolio_image_wrap bg-light" href="portfolio_details.html">
+                  <a class="portfolio_image_wrap bg-light" href="portfolio_details.php">
                     <img src="assets/images/portfolio/portfolio_item_image_1.webp" alt="Mobile App Design">
                   </a>
                 </div>
                 <div class="portfolio_content">
                   <h3 class="portfolio_title">
-                    <a href="portfolio_details.html">
+                    <a href="portfolio_details.php">
                       Mobile App Design
                     </a>
                   </h3>
                   <ul class="category_list unordered_list">
-                    <li><a href="portfolio.html">App Design</a></li>
+                    <li><a href="portfolio.php">App Design</a></li>
                   </ul>
-                  <a class="btn btn-outline-light" href="portfolio_details.html">
+                  <a class="btn btn-outline-light" href="portfolio_details.php">
                     <span class="btn_label" data-text="Explore">Explore</span>
                     <span class="btn_icon">
                       <i class="fa-solid fa-arrow-up-right"></i>
@@ -664,20 +725,20 @@ require_once 'global/global-variable.php';
             <div class="swiper-slide">
               <div class="portfolio_block">
                 <div class="portfolio_image">
-                  <a class="portfolio_image_wrap bg-light" href="portfolio_details.html">
+                  <a class="portfolio_image_wrap bg-light" href="portfolio_details.php">
                     <img src="assets/images/portfolio/portfolio_item_image_2.webp" alt="Dashboard Design">
                   </a>
                 </div>
                 <div class="portfolio_content">
                   <h3 class="portfolio_title">
-                    <a href="portfolio_details.html">
+                    <a href="portfolio_details.php">
                       Dashboard Design
                     </a>
                   </h3>
                   <ul class="category_list unordered_list">
-                    <li><a href="portfolio.html">Web Design</a></li>
+                    <li><a href="portfolio.php">Web Design</a></li>
                   </ul>
-                  <a class="btn btn-outline-light" href="portfolio_details.html">
+                  <a class="btn btn-outline-light" href="portfolio_details.php">
                     <span class="btn_label" data-text="Explore">Explore</span>
                     <span class="btn_icon">
                       <i class="fa-solid fa-arrow-up-right"></i>
@@ -689,20 +750,20 @@ require_once 'global/global-variable.php';
             <div class="swiper-slide">
               <div class="portfolio_block">
                 <div class="portfolio_image">
-                  <a class="portfolio_image_wrap bg-light" href="portfolio_details.html">
+                  <a class="portfolio_image_wrap bg-light" href="portfolio_details.php">
                     <img src="assets/images/portfolio/portfolio_item_image_3.webp" alt="Technology Solution">
                   </a>
                 </div>
                 <div class="portfolio_content">
                   <h3 class="portfolio_title">
-                    <a href="portfolio_details.html">
+                    <a href="portfolio_details.php">
                       Technology Solution
                     </a>
                   </h3>
                   <ul class="category_list unordered_list">
-                    <li><a href="portfolio.html">3D Design</a></li>
+                    <li><a href="portfolio.php">3D Design</a></li>
                   </ul>
-                  <a class="btn btn-outline-light" href="portfolio_details.html">
+                  <a class="btn btn-outline-light" href="portfolio_details.php">
                     <span class="btn_label" data-text="Explore">Explore</span>
                     <span class="btn_icon">
                       <i class="fa-solid fa-arrow-up-right"></i>
@@ -714,20 +775,20 @@ require_once 'global/global-variable.php';
             <div class="swiper-slide">
               <div class="portfolio_block">
                 <div class="portfolio_image">
-                  <a class="portfolio_image_wrap bg-light" href="portfolio_details.html">
+                  <a class="portfolio_image_wrap bg-light" href="portfolio_details.php">
                     <img src="assets/images/portfolio/portfolio_item_image_1.webp" alt="Mobile App Design">
                   </a>
                 </div>
                 <div class="portfolio_content">
                   <h3 class="portfolio_title">
-                    <a href="portfolio_details.html">
+                    <a href="portfolio_details.php">
                       Mobile App Design
                     </a>
                   </h3>
                   <ul class="category_list unordered_list">
-                    <li><a href="portfolio.html">App Design</a></li>
+                    <li><a href="portfolio.php">App Design</a></li>
                   </ul>
-                  <a class="btn btn-outline-light" href="portfolio_details.html">
+                  <a class="btn btn-outline-light" href="portfolio_details.php">
                     <span class="btn_label" data-text="Explore">Explore</span>
                     <span class="btn_icon">
                       <i class="fa-solid fa-arrow-up-right"></i>
@@ -739,20 +800,20 @@ require_once 'global/global-variable.php';
             <div class="swiper-slide">
               <div class="portfolio_block">
                 <div class="portfolio_image">
-                  <a class="portfolio_image_wrap bg-light" href="portfolio_details.html">
+                  <a class="portfolio_image_wrap bg-light" href="portfolio_details.php">
                     <img src="assets/images/portfolio/portfolio_item_image_2.webp" alt="Dashboard Design">
                   </a>
                 </div>
                 <div class="portfolio_content">
                   <h3 class="portfolio_title">
-                    <a href="portfolio_details.html">
+                    <a href="portfolio_details.php">
                       Dashboard Design
                     </a>
                   </h3>
                   <ul class="category_list unordered_list">
-                    <li><a href="portfolio.html">Web Design</a></li>
+                    <li><a href="portfolio.php">Web Design</a></li>
                   </ul>
-                  <a class="btn btn-outline-light" href="portfolio_details.html">
+                  <a class="btn btn-outline-light" href="portfolio_details.php">
                     <span class="btn_label" data-text="Explore">Explore</span>
                     <span class="btn_icon">
                       <i class="fa-solid fa-arrow-up-right"></i>
@@ -764,20 +825,20 @@ require_once 'global/global-variable.php';
             <div class="swiper-slide">
               <div class="portfolio_block">
                 <div class="portfolio_image">
-                  <a class="portfolio_image_wrap bg-light" href="portfolio_details.html">
+                  <a class="portfolio_image_wrap bg-light" href="portfolio_details.php">
                     <img src="assets/images/portfolio/portfolio_item_image_3.webp" alt="Technology Solution">
                   </a>
                 </div>
                 <div class="portfolio_content">
                   <h3 class="portfolio_title">
-                    <a href="portfolio_details.html">
+                    <a href="portfolio_details.php">
                       Technology Solution
                     </a>
                   </h3>
                   <ul class="category_list unordered_list">
-                    <li><a href="portfolio.html">3D Design</a></li>
+                    <li><a href="portfolio.php">3D Design</a></li>
                   </ul>
-                  <a class="btn btn-outline-light" href="portfolio_details.html">
+                  <a class="btn btn-outline-light" href="portfolio_details.php">
                     <span class="btn_label" data-text="Explore">Explore</span>
                     <span class="btn_icon">
                       <i class="fa-solid fa-arrow-up-right"></i>
@@ -791,7 +852,7 @@ require_once 'global/global-variable.php';
         </div>
         <div class="container text-center d-block d-lg-none">
           <div class="btns_group pb-0">
-            <a class="btn btn-primary" href="pricing.html">
+            <a class="btn btn-primary" href="pricing.php">
               <span class="btn_label" data-text="All Works">All Works</span>
               <span class="btn_icon">
                 <i class="fa-solid fa-arrow-up-right"></i>
@@ -823,11 +884,11 @@ require_once 'global/global-variable.php';
                   As a startup, we needed a technology partner who could help us bring our vision to life. Itsafe exceeded our expectations with their innovative solutions and proactive approach. They guided us through every step of the process, our journey together.
                 </p>
                 <div class="review_admin">
-                  <div class="review_admin_image">
+                  <!-- <div class="review_admin_image">
                     <img src="assets/images/avatar/avatar_4.webp" alt="Roman Dymtro">
-                  </div>
+                  </div> -->
                   <div class="review_admin_info">
-                    <h4 class="review_admin_name">Roman Dymtro</h4>
+                    <h4 class="review_admin_name">Faiz Lokhandwala</h4>
                     <span class="review_admin_designation">Director of Marketing</span>
                   </div>
                 </div>
@@ -835,14 +896,14 @@ require_once 'global/global-variable.php';
               <div class="review_block pb-0">
                 <h3 class="review_title">“Fast Respond”</h3>
                 <p class="review_commtent">
-                  Working with Techco was a seamless experience from start to finish. Their team took the time to understand our business goals and challenges, and they delivered a solution that addressed our needs perfectly. Their professionalism, expertise, and dedication to customer satisfaction were evident throughout the project. We look forward to working with Techco on future initiatives.
+                  Working with Umsoftcares was a seamless experience from start to finish. Their team took the time to understand our business goals and challenges, and they delivered a solution that addressed our needs perfectly.
                 </p>
                 <div class="review_admin">
-                  <div class="review_admin_image">
+                  <!-- <div class="review_admin_image">
                     <img src="assets/images/avatar/avatar_6.webp" alt="Bohdan Maksym">
-                  </div>
+                  </div> -->
                   <div class="review_admin_info">
-                    <h4 class="review_admin_name">Bohdan Maksym</h4>
+                    <h4 class="review_admin_name">Ayaan Merchant</h4>
                     <span class="review_admin_designation">Monprofit Director</span>
                   </div>
                 </div>
@@ -852,29 +913,29 @@ require_once 'global/global-variable.php';
               <div class="review_block pb-0">
                 <h3 class="review_title">“We Are Satisfied’’</h3>
                 <p class="review_commtent">
-                  We've been partnering with Techco for several years, and they have consistently delivered exceptional results. From custom software development to cloud services integration, their solutions have helped us stay ahead of the competition and adapt to evolving market demands. Their team's expertise, reliability, and commitment to customer satisfaction make them our go-to IT partner.
+                  We've been partnering with Umsoftcares for several years, and they have consistently delivered exceptional results. From custom software development to cloud services integration, their solutions have helped us stay ahead of the competition and adapt to evolving market demands.
                 </p>
                 <div class="review_admin">
-                  <div class="review_admin_image">
+                  <!-- <div class="review_admin_image">
                     <img src="assets/images/avatar/avatar_5.webp" alt="Michel johnson">
-                  </div>
+                  </div> -->
                   <div class="review_admin_info">
-                    <h4 class="review_admin_name">Michel johnson</h4>
+                    <h4 class="review_admin_name">Aaditya Shah</h4>
                     <span class="review_admin_designation">Tech Startup Founder</span>
                   </div>
                 </div>
               </div>
               <div class="review_block pb-0">
-                <h3 class="review_title">“Amazing services”</h3>
+                <h3 class="review_title">“Great services”</h3>
                 <p class="review_commtent">
-                  The team at Techco surpassed our expectations. Their meticulous project management and technical prowess were exceptional. They closely collaborated with us, ensuring a that not only met but exceeded our needs. We are thrilled with the outcome.
+                  The team at Umsoftcares surpassed our expectations. Their meticulous project management and technical prowess were exceptional. They closely collaborated with us, ensuring a that not only met but exceeded our needs.
                 </p>
                 <div class="review_admin">
-                  <div class="review_admin_image">
+                  <!-- <div class="review_admin_image">
                     <img src="assets/images/avatar/avatar_7.webp" alt="Anatoliy Vasyl">
-                  </div>
+                  </div> -->
                   <div class="review_admin_info">
-                    <h4 class="review_admin_name">Anatoliy Vasyl</h4>
+                    <h4 class="review_admin_name">Ayesha Baloch</h4>
                     <span class="review_admin_designation">Director of Marketing</span>
                   </div>
                 </div>
@@ -887,7 +948,7 @@ require_once 'global/global-variable.php';
         ================================================== -->
       <!-- Team Section - Start
         ================================================== -->
-      <section class="team_section xb-hidden section_space">
+      <!-- <section class="team_section xb-hidden section_space">
         <div class="container">
           <div class="heading_block text-center">
             <div class="heading_focus_text">
@@ -903,14 +964,14 @@ require_once 'global/global-variable.php';
               <div class="swiper-slide">
                 <div class="team_block">
                   <div class="team_member_image">
-                    <a class="image_wrap" aria-label="Team Details Button" href="team_details.html">
+                    <a class="image_wrap" aria-label="Team Details Button" href="team_details.php">
                       <img src="assets/images/team/team_member_image_1.webp" alt="Team Member Image">
                       <i class="fa-solid fa-arrow-up-right"></i>
                     </a>
                   </div>
                   <div class="team_member_info">
                     <h3 class="team_member_name">
-                      <a href="team_details.html">Atticus Sterling</a>
+                      <a href="team_details.php">Atticus Sterling</a>
                     </h3>
                     <h4 class="team_member_designation">Systems Engineer</h4>
                     <ul class="social_icons_block unordered_list justify-content-center">
@@ -941,14 +1002,14 @@ require_once 'global/global-variable.php';
               <div class="swiper-slide">
                 <div class="team_block">
                   <div class="team_member_image">
-                    <a class="image_wrap" aria-label="Team Details Button" href="team_details.html">
+                    <a class="image_wrap" aria-label="Team Details Button" href="team_details.php">
                       <img src="assets/images/team/team_member_image_2.webp" alt="Team Member Image">
                       <i class="fa-solid fa-arrow-up-right"></i>
                     </a>
                   </div>
                   <div class="team_member_info">
                     <h3 class="team_member_name">
-                      <a href="team_details.html">Orion Jasper</a>
+                      <a href="team_details.php">Orion Jasper</a>
                     </h3>
                     <h4 class="team_member_designation">IT Consultant</h4>
                     <ul class="social_icons_block unordered_list justify-content-center">
@@ -979,14 +1040,14 @@ require_once 'global/global-variable.php';
               <div class="swiper-slide">
                 <div class="team_block">
                   <div class="team_member_image">
-                    <a class="image_wrap" aria-label="Team Details Button" href="team_details.html">
+                    <a class="image_wrap" aria-label="Team Details Button" href="team_details.php">
                       <img src="assets/images/team/team_member_image_3.webp" alt="Team Member Image">
                       <i class="fa-solid fa-arrow-up-right"></i>
                     </a>
                   </div>
                   <div class="team_member_info">
                     <h3 class="team_member_name">
-                      <a href="team_details.html">August Everest</a>
+                      <a href="team_details.php">August Everest</a>
                     </h3>
                     <h4 class="team_member_designation">systems engineer</h4>
                     <ul class="social_icons_block unordered_list justify-content-center">
@@ -1017,14 +1078,14 @@ require_once 'global/global-variable.php';
               <div class="swiper-slide">
                 <div class="team_block">
                   <div class="team_member_image">
-                    <a class="image_wrap" aria-label="Team Details Button" href="team_details.html">
+                    <a class="image_wrap" aria-label="Team Details Button" href="team_details.php">
                       <img src="assets/images/team/team_member_image_4.webp" alt="Team Member Image">
                       <i class="fa-solid fa-arrow-up-right"></i>
                     </a>
                   </div>
                   <div class="team_member_info">
                     <h3 class="team_member_name">
-                      <a href="team_details.html">Maverick Phoenix</a>
+                      <a href="team_details.php">Maverick Phoenix</a>
                     </h3>
                     <h4 class="team_member_designation">data analyst</h4>
                     <ul class="social_icons_block unordered_list justify-content-center">
@@ -1055,14 +1116,14 @@ require_once 'global/global-variable.php';
               <div class="swiper-slide">
                 <div class="team_block">
                   <div class="team_member_image">
-                    <a class="image_wrap" aria-label="Team Details Button" href="team_details.html">
+                    <a class="image_wrap" aria-label="Team Details Button" href="team_details.php">
                       <img src="assets/images/team/team_member_image_5.webp" alt="Team Member Image">
                       <i class="fa-solid fa-arrow-up-right"></i>
                     </a>
                   </div>
                   <div class="team_member_info">
                     <h3 class="team_member_name">
-                      <a href="team_details.html">Daxton Atlas</a>
+                      <a href="team_details.php">Daxton Atlas</a>
                     </h3>
                     <h4 class="team_member_designation">Project Manager</h4>
                     <ul class="social_icons_block unordered_list justify-content-center">
@@ -1093,14 +1154,14 @@ require_once 'global/global-variable.php';
               <div class="swiper-slide">
                 <div class="team_block">
                   <div class="team_member_image">
-                    <a class="image_wrap" aria-label="Team Details Button" href="team_details.html">
+                    <a class="image_wrap" aria-label="Team Details Button" href="team_details.php">
                       <img src="assets/images/team/team_member_image_1.webp" alt="Team Member Image">
                       <i class="fa-solid fa-arrow-up-right"></i>
                     </a>
                   </div>
                   <div class="team_member_info">
                     <h3 class="team_member_name">
-                      <a href="team_details.html">Atticus Sterling</a>
+                      <a href="team_details.php">Atticus Sterling</a>
                     </h3>
                     <h4 class="team_member_designation">Systems Engineer</h4>
                     <ul class="social_icons_block unordered_list justify-content-center">
@@ -1131,14 +1192,14 @@ require_once 'global/global-variable.php';
               <div class="swiper-slide">
                 <div class="team_block">
                   <div class="team_member_image">
-                    <a class="image_wrap" aria-label="Team Details Button" href="team_details.html">
+                    <a class="image_wrap" aria-label="Team Details Button" href="team_details.php">
                       <img src="assets/images/team/team_member_image_2.webp" alt="Team Member Image">
                       <i class="fa-solid fa-arrow-up-right"></i>
                     </a>
                   </div>
                   <div class="team_member_info">
                     <h3 class="team_member_name">
-                      <a href="team_details.html">Orion Jasper</a>
+                      <a href="team_details.php">Orion Jasper</a>
                     </h3>
                     <h4 class="team_member_designation">IT Consultant</h4>
                     <ul class="social_icons_block unordered_list justify-content-center">
@@ -1169,14 +1230,14 @@ require_once 'global/global-variable.php';
               <div class="swiper-slide">
                 <div class="team_block">
                   <div class="team_member_image">
-                    <a class="image_wrap" aria-label="Team Details Button" href="team_details.html">
+                    <a class="image_wrap" aria-label="Team Details Button" href="team_details.php">
                       <img src="assets/images/team/team_member_image_3.webp" alt="Team Member Image">
                       <i class="fa-solid fa-arrow-up-right"></i>
                     </a>
                   </div>
                   <div class="team_member_info">
                     <h3 class="team_member_name">
-                      <a href="team_details.html">August Everest</a>
+                      <a href="team_details.php">August Everest</a>
                     </h3>
                     <h4 class="team_member_designation">systems engineer</h4>
                     <ul class="social_icons_block unordered_list justify-content-center">
@@ -1207,14 +1268,14 @@ require_once 'global/global-variable.php';
               <div class="swiper-slide">
                 <div class="team_block">
                   <div class="team_member_image">
-                    <a class="image_wrap" aria-label="Team Details Button" href="team_details.html">
+                    <a class="image_wrap" aria-label="Team Details Button" href="team_details.php">
                       <img src="assets/images/team/team_member_image_4.webp" alt="Team Member Image">
                       <i class="fa-solid fa-arrow-up-right"></i>
                     </a>
                   </div>
                   <div class="team_member_info">
                     <h3 class="team_member_name">
-                      <a href="team_details.html">Maverick Phoenix</a>
+                      <a href="team_details.php">Maverick Phoenix</a>
                     </h3>
                     <h4 class="team_member_designation">data analyst</h4>
                     <ul class="social_icons_block unordered_list justify-content-center">
@@ -1245,14 +1306,14 @@ require_once 'global/global-variable.php';
               <div class="swiper-slide">
                 <div class="team_block">
                   <div class="team_member_image">
-                    <a class="image_wrap" aria-label="Team Details Button" href="team_details.html">
+                    <a class="image_wrap" aria-label="Team Details Button" href="team_details.php">
                       <img src="assets/images/team/team_member_image_5.webp" alt="Team Member Image">
                       <i class="fa-solid fa-arrow-up-right"></i>
                     </a>
                   </div>
                   <div class="team_member_info">
                     <h3 class="team_member_name">
-                      <a href="team_details.html">Daxton Atlas</a>
+                      <a href="team_details.php">Daxton Atlas</a>
                     </h3>
                     <h4 class="team_member_designation">Project Manager</h4>
                     <ul class="social_icons_block unordered_list justify-content-center">
@@ -1284,7 +1345,7 @@ require_once 'global/global-variable.php';
           </div>
           <div class="container">
             <div class="btns_group pb-0">
-              <a class="btn btn-outline-light" href="service.html">
+              <a class="btn btn-outline-light" href="service.php">
                 <span class="btn_label" data-text="Our All Experts">Our All Experts</span>
                 <span class="btn_icon">
                   <i class="fa-solid fa-arrow-up-right"></i>
@@ -1293,7 +1354,7 @@ require_once 'global/global-variable.php';
             </div>
           </div>
         </div>
-      </section>
+      </section> -->
       <!-- Team Section - End
         ================================================== -->
       <!-- Blog Section - Start
@@ -1313,15 +1374,14 @@ require_once 'global/global-variable.php';
             <div class="col-lg-4">
               <div class="blog_post_block">
                 <div class="blog_post_image">
-                  <a class="image_wrap" href="blog_details.html">
+                  <a class="image_wrap" href="blog_details.php">
                     <img src="assets/images/blog/blog_post_image_1.webp" alt="Blog Post Image 1">
                   </a>
                 </div>
                 <div class="blog_post_content">
                   <div class="post_meta_wrap">
                     <ul class="category_btns_group unordered_list">
-                      <li><a href="#!">Branding</a></li>
-                      <li><a href="#!">UI/UX</a></li>
+                      <li><a href="#!">Mobile App</a></li>
                     </ul>
                     <ul class="post_meta unordered_list">
                       <li>
@@ -1335,23 +1395,17 @@ require_once 'global/global-variable.php';
                     </ul>
                   </div>
                   <h3 class="blog_post_title">
-                    <a href="blog_details.html">
+                    <a href="blog_details.php">
                       Leveraging Analytics for Business Growth Modernizing...
                     </a>
                   </h3>
-                  <a class="btn_unfill" href="blog_details.html">
-                    <span class="btn_icon">
-                      <i class="fa-solid fa-arrow-up-right"></i>
-                    </span>
-                    <span class="btn_label">Read More</span>
-                  </a>
                 </div>
               </div>
             </div>
             <div class="col-lg-4">
               <div class="blog_post_block">
                 <div class="blog_post_image">
-                  <a class="image_wrap" href="blog_details.html">
+                  <a class="image_wrap" href="blog_details.php">
                     <img src="assets/images/blog/blog_post_image_2.webp" alt="Blog Post Image 2">
                   </a>
                 </div>
@@ -1372,23 +1426,17 @@ require_once 'global/global-variable.php';
                     </ul>
                   </div>
                   <h3 class="blog_post_title">
-                    <a href="blog_details.html">
+                    <a href="blog_details.php">
                       How Emerging Technologies are Shaping the Future...
                     </a>
                   </h3>
-                  <a class="btn_unfill" href="blog_details.html">
-                    <span class="btn_icon">
-                      <i class="fa-solid fa-arrow-up-right"></i>
-                    </span>
-                    <span class="btn_label">Read More</span>
-                  </a>
                 </div>
               </div>
             </div>
             <div class="col-lg-4">
               <div class="blog_post_block">
                 <div class="blog_post_image">
-                  <a class="image_wrap" href="blog_details.html">
+                  <a class="image_wrap" href="blog_details.php">
                     <img src="assets/images/blog/blog_post_image_3.webp" alt="Blog Post Image 3">
                   </a>
                 </div>
@@ -1409,16 +1457,10 @@ require_once 'global/global-variable.php';
                     </ul>
                   </div>
                   <h3 class="blog_post_title">
-                    <a href="blog_details.html">
+                    <a href="blog_details.php">
                       Creating Engaging Digital for Your Audience Software...
                     </a>
                   </h3>
-                  <a class="btn_unfill" href="blog_details.html">
-                    <span class="btn_icon">
-                      <i class="fa-solid fa-arrow-up-right"></i>
-                    </span>
-                    <span class="btn_label">Read More</span>
-                  </a>
                 </div>
               </div>
             </div>
@@ -1439,7 +1481,7 @@ require_once 'global/global-variable.php';
               Our team of experts is ready to collaborate with you every step of the way, from initial consultation to implementation.
             </p>
           </div>
-          <a class="btn btn-primary" href="contact.html">
+          <a class="btn btn-primary" href="contact.php">
             <span class="btn_label" data-text="Contact Us Today!">Contact Us Today!</span>
             <span class="btn_icon">
               <i class="fa-solid fa-arrow-up-right"></i>

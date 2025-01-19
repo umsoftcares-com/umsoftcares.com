@@ -63,44 +63,44 @@
                             <h3 class="footer_info_title">Services</h3>
                             <ul class="icon_list unordered_list_block">
                                 <li>
-                                    <a href="#!">
+                                    <a href="<?=$domain;?>our-services.php">
                                         <span class="icon_list_text">
-                                            It Consultation
+                                            Website Development
                                         </span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#!">
+                                    <a href="<?=$domain;?>our-services.php">
                                         <span class="icon_list_text">
-                                            Cloud Services
+                                            Mobile App Development
                                         </span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#!">
+                                    <a href="<?=$domain;?>our-services.php">
                                         <span class="icon_list_text">
-                                            AI Machine Learning
+                                            Ecommerce Solutions
                                         </span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#!">
+                                    <a href="<?=$domain;?>our-services.php">
                                         <span class="icon_list_text">
-                                            Data Security
+                                            Graphic Design
                                         </span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#!">
+                                    <a href="<?=$domain;?>our-services.php">
                                         <span class="icon_list_text">
-                                            Software Development
+                                            Digital Marketing
                                         </span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#!">
+                                    <a href="<?=$domain;?>our-services.php">
                                         <span class="icon_list_text">
-                                            Cyber Security
+                                            UI/UX Design
                                         </span>
                                     </a>
                                 </li>
@@ -112,47 +112,47 @@
                             <h3 class="footer_info_title">Information</h3>
                             <ul class="icon_list unordered_list_block">
                                 <li>
-                                    <a href="#!">
+                                    <a href="<?=$domain;?>about.php">
                                         <span class="icon_list_text">
-                                            About Techco
+                                            About
                                         </span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#!">
+                                    <a href="<?=$domain;?>our-works.php">
                                         <span class="icon_list_text">
-                                            Investors
+                                            Our Works
                                         </span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#!">
+                                    <a href="<?=$domain;?>our-services.php">
+                                        <span class="icon_list_text">
+                                            Our Services
+                                        </span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="<?=$domain;?>contact.php">
                                         <span class="icon_list_text">
                                             Contact
                                         </span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#!">
+                                    <a href="<?=$domain;?>blog.php">
                                         <span class="icon_list_text">
-                                            Affiliate Program
+                                            Blogs
                                         </span>
                                     </a>
                                 </li>
-                                <li>
-                                    <a href="#!">
-                                        <span class="icon_list_text">
-                                            Career
-                                        </span>
-                                    </a>
-                                </li>
-                                <li>
+                                <!-- <li>
                                     <a href="#!">
                                         <span class="icon_list_text">
                                             Pricing Plan
                                         </span>
                                     </a>
-                                </li>
+                                </li> -->
                             </ul>
                         </div>
                     </div>

@@ -24,7 +24,7 @@
       <header class="site_header site_header_1">
           <div class="header_top text-center">
               <div class="container">
-                  <p class="m-0">Subscribe us and receive <b>20% bonus</b> discount on checkout. <a href="pricing.php"><u>Learn more</u> <i class="fa-solid fa-angle-right"></i></a></p>
+                  <p class="m-0">Subscribe us and receive <b>20% bonus</b> discount now <a href="<?=$domain;?>contact.php"><u>Learn more</u> <i class="fa-solid fa-angle-right"></i></a></p>
               </div>
           </div>
           <div class="header_bottom stricky">
@@ -47,21 +47,17 @@
                                               Who We Are
                                           </a>
                                       </li>
-                                      <li class="dropdown">
+                                      <li>
                                           <a class="nav-link" href="#" id="portfolio_submenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                               What We Do
                                           </a>
-                                          <ul class="dropdown-menu" aria-labelledby="portfolio_submenu">
-                                              <li><a href="portfolio.php">Portfolio</a></li>
-                                              <li><a href="portfolio_details.php">Portfolio Details</a></li>
-                                          </ul>
                                       </li>
                                       <li>
                                           <a class="nav-link" href="#" id="services_submenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                               Our Works
                                           </a>
                                       </li>
-                                      <li><a href="contact.php">Contact</a></li>
+                                      <li><a href="<?=$domain;?>contact.php">Contact</a></li>
                                   </ul>
                               </div>
                           </nav>
@@ -74,7 +70,7 @@
                                   </button>
                               </li>
                               <li>
-                                  <a class="btn btn-outline-light" href="pricing.php">
+                                  <a class="btn btn-outline-light" href="<?=$domain;?>contact.php">
                                       <span class="btn_label" data-text="Get Started">Get Started</span>
                                       <span class="btn_icon">
                                           <i class="fa-solid fa-arrow-up-right"></i>

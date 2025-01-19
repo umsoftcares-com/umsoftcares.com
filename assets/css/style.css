@@ -3189,7 +3189,7 @@ input[type=search]::-webkit-search-results-decoration {
     margin: 0 auto 10px; }
   .review_block .review_admin {
     z-index: 1;
-    height: 430px;
+    height: 150px;
     display: flex;
     margin: 0 -30px;
     padding-top: 40px;

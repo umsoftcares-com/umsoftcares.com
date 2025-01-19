@@ -9,6 +9,7 @@ if ($domain == 1) {
 $company_name = "UMSoftcares";
 $page_title = "Software Development Company";
 $company_mail = "info@umsoftcares.com";
-$company_phone = "+91 1234567890";
+$company_phone = "+91 840 130 2846";
 $company_address = "Ahmedabad, Gujarat, India";
 $copyright_text = "© 2024 UMSoftcares. All Rights Reserved.";
+$cta_link = $domain . 'contact.php';
